@@ -20,11 +20,11 @@ function Login() {
     const user = savedUser ? JSON.parse(savedUser) : null;
 
     if (user && user.email === login.email && user.password === login.password) {
-      alert("Login Success ✅");
+      alert("Login Success ");
       navigate("/");
-      window.location.reload(); // 🔥 important for navbar update
+      window.location.reload(); //  important for navbar update
     } else {
-      alert("Invalid Credentials ❌");
+      alert("Invalid Credentials ");
     }
   }
 

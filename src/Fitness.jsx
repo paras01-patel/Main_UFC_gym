@@ -48,17 +48,17 @@ function Fitness() {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
           <div className="bg-white p-6 rounded shadow">
-            <h3 className="font-semibold text-lg mb-2">💪 Strength Building</h3>
+            <h3 className="font-semibold text-lg mb-2">Strength Building</h3>
             <p>Increase muscle strength and endurance.</p>
           </div>
 
           <div className="bg-white p-6 rounded shadow">
-            <h3 className="font-semibold text-lg mb-2">🔥 Weight Loss</h3>
+            <h3 className="font-semibold text-lg mb-2"> Weight Loss</h3>
             <p>Burn calories and stay fit.</p>
           </div>
 
           <div className="bg-white p-6 rounded shadow">
-            <h3 className="font-semibold text-lg mb-2">⚡ Energy Boost</h3>
+            <h3 className="font-semibold text-lg mb-2"> Energy Boost</h3>
             <p>Improve stamina and daily performance.</p>
           </div>
 

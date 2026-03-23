@@ -39,7 +39,7 @@ function Navbar() {
         {user ? (
           <>
             <span className="text-red-500 mr-3">Hello, {user.name}</span>
-            <button onClick={logout} className="border px-2">Logout</button>
+            <button onClick={logout} className="border px-2  bg-red-600 rounded-2xl">Logout</button>
           </>
         ) : (
           <>

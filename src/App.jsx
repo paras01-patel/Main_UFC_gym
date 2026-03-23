@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Form } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
@@ -12,6 +12,11 @@ import Locations from "./Locations";
 import Contact from "./Contact";
 import Login from "./Login";
 import Signup from "./Signup";
+import Nofound from "./Nofound";
+import AA from "./AA";
+import YourMem from "./YourMem";
+
+
 
 function App() {
   return (
@@ -29,6 +34,10 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/aa" element={<AA />} />
+        <Route path="/yourmem" element={<YourMem />} />
+        <Route path="*" element={<Nofound />} />
+        
       </Routes>
 
       <Footer />

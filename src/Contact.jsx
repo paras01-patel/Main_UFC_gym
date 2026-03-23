@@ -2,7 +2,7 @@ function Contact() {
   return (
     <div className="bg-black text-white">
 
-      {/* HERO */}
+
       <section className="h-[50vh] bg-[url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438')] bg-cover bg-center flex items-center justify-center">
         <div className="bg-black/70 p-8 rounded text-center">
           <h1 className="text-5xl font-bold">
@@ -14,10 +14,10 @@ function Contact() {
         </div>
       </section>
 
-      {/* CONTACT SECTION */}
+      
       <section className="py-16 px-6 max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
 
-        {/* FORM */}
+        
         <div>
           <h2 className="text-3xl font-bold mb-6">Send Message</h2>
 
@@ -46,7 +46,7 @@ function Contact() {
           </form>
         </div>
 
-        {/* CONTACT INFO */}
+        
         <div>
           <h2 className="text-3xl font-bold mb-6">Contact Info</h2>
 
@@ -57,7 +57,7 @@ function Contact() {
             <p>🕒 Mon - Sat: 6AM - 10PM</p>
           </div>
 
-          {/* MAP */}
+          
           <div className="mt-6">
             <iframe
               title="map"
@@ -69,7 +69,6 @@ function Contact() {
 
       </section>
 
-      {/* CTA */}
       <section className="py-16 text-center">
         <h2 className="text-4xl font-bold mb-4">
           Ready to Visit Us?

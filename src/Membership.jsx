@@ -31,7 +31,7 @@ function Membership() {
               <li>✔ Basic Equipment</li>
               <li>❌ Personal Trainer</li>
             </ul>
-            <Link to="/signup" className="bg-red-500 px-6 py-2 rounded hover:bg-red-600">
+            <Link to="/AA" className="bg-red-500 px-6 py-2 rounded hover:bg-red-600">
               Join Now
             </Link>
           </div>
@@ -45,7 +45,7 @@ function Membership() {
               <li>✔ MMA & Boxing</li>
               <li>✔ Group Training</li>
             </ul>
-            <Link to="/signup" className="bg-black text-white px-6 py-2 rounded hover:bg-gray-800">
+            <Link to="/AA" className="bg-black text-white px-6 py-2 rounded hover:bg-gray-800">
               Most Popular
             </Link>
           </div>
@@ -59,7 +59,7 @@ function Membership() {
               <li>✔ Personal Trainer</li>
               <li>✔ Diet Plan</li>
             </ul>
-            <Link to="/signup" className="bg-red-500 px-6 py-2 rounded hover:bg-red-600">
+            <Link to="/AA" className="bg-red-500 px-6 py-2 rounded hover:bg-red-600">
               Join Now
             </Link>
           </div>
@@ -76,7 +76,7 @@ function Membership() {
           Transform your body with UFC Gym today
         </p>
 
-        <Link to="/signup" className="bg-red-500 px-8 py-3 rounded hover:bg-red-600">
+        <Link to="/" className="bg-red-500 px-8 py-3 rounded hover:bg-red-600">
           Get Started
         </Link>
       </section>

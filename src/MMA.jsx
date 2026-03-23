@@ -49,17 +49,17 @@ function MMA() {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
           <div className="bg-white p-6 rounded shadow">
-            <h3 className="font-semibold text-lg mb-2">💪 Full Body Workout</h3>
+            <h3 className="font-semibold text-lg mb-2"> Full Body Workout</h3>
             <p>Build strength, endurance, and flexibility.</p>
           </div>
 
           <div className="bg-white p-6 rounded shadow">
-            <h3 className="font-semibold text-lg mb-2">🥊 Self Defense</h3>
+            <h3 className="font-semibold text-lg mb-2"> Self Defense</h3>
             <p>Learn practical fighting and defense skills.</p>
           </div>
 
           <div className="bg-white p-6 rounded shadow">
-            <h3 className="font-semibold text-lg mb-2">🔥 Fat Loss</h3>
+            <h3 className="font-semibold text-lg mb-2"> Fat Loss</h3>
             <p>Burn calories and stay in peak shape.</p>
           </div>
 

@@ -48,17 +48,17 @@ function About() {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
           <div className="bg-white p-6 rounded shadow">
-            <h3 className="font-semibold text-lg mb-2">🥊 MMA Training</h3>
+            <h3 className="font-semibold text-lg mb-2"> MMA Training</h3>
             <p>Professional mixed martial arts coaching.</p>
           </div>
 
           <div className="bg-white p-6 rounded shadow">
-            <h3 className="font-semibold text-lg mb-2">🥊 Boxing Classes</h3>
+            <h3 className="font-semibold text-lg mb-2"> Boxing Classes</h3>
             <p>Improve stamina, power, and agility.</p>
           </div>
 
           <div className="bg-white p-6 rounded shadow">
-            <h3 className="font-semibold text-lg mb-2">💪 Fitness Programs</h3>
+            <h3 className="font-semibold text-lg mb-2"> Fitness Programs</h3>
             <p>Strength & conditioning workouts.</p>
           </div>
 
