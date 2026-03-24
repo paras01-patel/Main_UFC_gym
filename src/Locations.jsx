@@ -14,7 +14,6 @@ function Locations() {
         </div>
       </section>
 
-      {/* LOCATIONS GRID */}
       <section className="py-16 px-6 text-center">
         <h2 className="text-4xl font-bold mb-12">India Locations</h2>
 

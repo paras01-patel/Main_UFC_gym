@@ -39,8 +39,8 @@ function Footer() {
           <h2 className="text-lg font-semibold mb-3">Contact</h2>
           <p className="text-gray-400 text-sm">
             📍 India <br />
-            📞 +91 9876543210 <br />
-            ✉ info@ufcgym.com
+            📞 +91 6263442343 <br />
+            ✉ ufc_gym@gmail.com
           </p>
         </div>
 
@@ -48,7 +48,7 @@ function Footer() {
 
       {/* Bottom */}
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-gray-500 text-sm">
-        © 2026 UFC Gym. All Rights Reserved.
+        2026 UFC Gym. 
       </div>
 
     </footer>

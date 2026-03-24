@@ -18,7 +18,6 @@ function AA() {
   function handleSubmit(e) {
     e.preventDefault();
 
-    // 🔥 data next page pe bhej rahe hain
     navigate("/yourmem", { state: form });
   }
 

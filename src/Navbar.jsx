@@ -15,9 +15,11 @@ function Navbar() {
   return (
     <nav className="bg-black text-white flex justify-between px-8 py-4">
 
-      <h1 className="text-red-500 text-xl font-bold">UFC GYM</h1>
+    <h1 className="text-5xl font-extrabold uppercase tracking-wide">
+  <span className="text-red-600">UFC</span> <span className="text-white">GYM</span>
+</h1>
 
-      <ul className="flex gap-6">
+      <ul className="flex gap-6 mt-2 font-medium">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
 
@@ -38,12 +40,12 @@ function Navbar() {
       <div>
         {user ? (
           <>
-            <span className="text-red-500 mr-3">Hello, {user.name}</span>
+            <span className="text-red-500 mr-3 ">Hello, {user.name}</span>
             <button onClick={logout} className="border px-2  bg-red-600 rounded-2xl">Logout</button>
           </>
         ) : (
           <>
-            <Link to="/login" className="mr-3">Login</Link>
+            <Link to="/login" className="mr-3 ">Login</Link>
             <Link to="/signup" className="bg-red-500 px-2">Join</Link>
           </>
         )}
