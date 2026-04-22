@@ -24,7 +24,6 @@ function Signup() {
       return;
     }
 
-    // ✅ ONLY required data save
     localStorage.setItem(
       "userdata",
       JSON.stringify({
@@ -34,7 +33,7 @@ function Signup() {
       })
     );
 
-    alert("Signup Successful ✅");
+    alert("Signup Successful ");
     navigate("/login");
   }
 

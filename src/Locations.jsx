@@ -19,7 +19,6 @@ function Locations() {
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
-          {/* Location Card */}
           <div className="bg-gray-900 p-6 rounded-lg shadow hover:scale-105 transition">
             <h3 className="text-xl font-semibold text-red-500 mb-2">Mumbai</h3>
             <p className="text-gray-400">Andheri West, Mumbai</p>
@@ -77,7 +76,6 @@ function Locations() {
         </div>
       </section>
 
-      {/* CTA */}
       <section className="py-16 text-center">
         <h2 className="text-4xl font-bold mb-4">
           Ready to Join Your Nearest Gym?

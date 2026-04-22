@@ -5,7 +5,6 @@ function Home() {
   return (
     <div className="bg-black text-white">
 
-      {/* HERO */}
       <section className="h-screen bg-[url('https://images.unsplash.com/photo-1558611848-73f7eb4001a1')] bg-cover bg-center flex items-center justify-center">
         <div className="bg-black/70 p-10 rounded-lg text-center max-w-2xl">
           <h1 className="text-5xl font-bold mb-4">
@@ -26,7 +25,7 @@ function Home() {
         </div>
       </section>
 
-      {/* PROGRAMS */}
+
       <section className="py-16 px-6 text-center">
         <h2 className="text-4xl font-bold mb-12">Training Programs</h2>
 

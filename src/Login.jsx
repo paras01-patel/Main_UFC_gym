@@ -22,7 +22,7 @@ function Login() {
     if (user && user.email === login.email && user.password === login.password) {
       alert("Login Success ");
       navigate("/");
-      window.location.reload(); //  important for navbar update
+      window.location.reload(); 
     } else {
       alert("Invalid Credentials ");
     }

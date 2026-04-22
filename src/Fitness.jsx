@@ -41,7 +41,6 @@ function Fitness() {
 
       </section>
 
-      {/* BENEFITS */}
       <section className="bg-gray-100 text-black py-16 px-6 text-center">
         <h2 className="text-4xl font-bold mb-12">Benefits of Fitness Training</h2>
 
@@ -65,7 +64,6 @@ function Fitness() {
         </div>
       </section>
 
-      {/* PROGRAMS */}
       <section className="py-16 px-6 text-center">
         <h2 className="text-4xl font-bold mb-12">Our Fitness Programs</h2>
 
@@ -89,7 +87,6 @@ function Fitness() {
         </div>
       </section>
 
-      {/* CTA */}
       <section className="py-16 text-center">
         <h2 className="text-4xl font-bold mb-4">
           Start Your Fitness Journey Today

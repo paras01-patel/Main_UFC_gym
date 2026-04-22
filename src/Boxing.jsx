@@ -4,7 +4,6 @@ function Boxing() {
   return (
     <div className="bg-black text-white">
 
-      {/* HERO */}
       <section className="h-[60vh] bg-[url('https://images.unsplash.com/photo-1549719386-74dfcbf7dbed')] bg-cover bg-center flex items-center justify-center">
         <div className="bg-black/70 p-8 rounded text-center">
           <h1 className="text-5xl font-bold">
@@ -16,7 +15,6 @@ function Boxing() {
         </div>
       </section>
 
-      {/* ABOUT BOXING */}
       <section className="py-16 px-6 max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         
         <div>
@@ -42,7 +40,6 @@ function Boxing() {
 
       </section>
 
-      {/* BENEFITS */}
       <section className="bg-gray-100 text-black py-16 px-6 text-center">
         <h2 className="text-4xl font-bold mb-12">Benefits of Boxing</h2>
 
@@ -66,7 +63,6 @@ function Boxing() {
         </div>
       </section>
 
-      {/* PROGRAM LEVELS */}
       <section className="py-16 px-6 text-center">
         <h2 className="text-4xl font-bold mb-12">Our Boxing Program</h2>
 
@@ -90,7 +86,6 @@ function Boxing() {
         </div>
       </section>
 
-      {/* CTA */}
       <section className="py-16 text-center">
         <h2 className="text-4xl font-bold mb-4">
           Ready to Step Into the Ring?

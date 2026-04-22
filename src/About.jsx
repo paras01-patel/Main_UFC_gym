@@ -41,7 +41,6 @@ function About() {
 
       </section>
 
-      {/* FEATURES */}
       <section className="bg-gray-100 text-black py-16 px-6 text-center">
         <h2 className="text-4xl font-bold mb-12">What We Offer</h2>
 
@@ -65,7 +64,6 @@ function About() {
         </div>
       </section>
 
-      {/* STATS */}
       <section className="py-16 text-center">
         <h2 className="text-4xl font-bold mb-10">Our Achievements</h2>
 
