@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 function Train() {
   const programs = [
     {
@@ -25,7 +27,7 @@ function Train() {
   return (
     <div className="bg-black text-white min-h-screen">
 
-      {/* HERO SECTION */}
+      {/* HERO */}
       <section className="h-[60vh] bg-[url('https://images.unsplash.com/photo-1517960413843-0aee8e2b3285')] bg-cover bg-center flex items-center justify-center">
         <div className="bg-black/70 p-8 rounded text-center">
           <h1 className="text-5xl font-bold">
@@ -37,7 +39,7 @@ function Train() {
         </div>
       </section>
 
-      {/* PROGRAM SECTION */}
+      {/* PROGRAMS */}
       <section className="p-10">
         <h2 className="text-3xl font-bold text-center mb-10">
           Our Programs
@@ -45,9 +47,10 @@ function Train() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {programs.map((item, index) => (
-            <div
+            <motion.div
               key={index}
-              className="bg-gray-900 rounded-xl overflow-hidden hover:scale-105 transition"
+              whileHover={{ scale: 1.08 }}
+              className="bg-gray-900 rounded-xl overflow-hidden shadow-lg"
             >
               <img src={item.img} alt={item.title} className="h-48 w-full object-cover" />
 
@@ -59,14 +62,92 @@ function Train() {
                   Join Now
                 </button>
               </div>
-            </div>
+            </motion.div>
           ))}
+        </div>
+      </section>
+
+      {/* BENEFITS SECTION */}
+      <section className="p-10 bg-gray-900">
+        <h2 className="text-3xl font-bold text-center mb-10">
+          Why Choose Us?
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-6 text-center">
+          <div>
+            <h3 className="text-xl font-bold text-yellow-400">💪 Expert Trainers</h3>
+            <p className="text-gray-400 mt-2">Certified professionals to guide you</p>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-bold text-yellow-400">🔥 Fat Loss Programs</h3>
+            <p className="text-gray-400 mt-2">Special plans to burn fat quickly</p>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-bold text-yellow-400">🏋️ Modern Equipment</h3>
+            <p className="text-gray-400 mt-2">Train with latest machines</p>
+          </div>
+        </div>
+      </section>
+
+      {/* TIMING / SCHEDULE */}
+      <section className="p-10">
+        <h2 className="text-3xl font-bold text-center mb-10">
+          Training Schedule
+        </h2>
+
+        <div className="max-w-3xl mx-auto bg-gray-900 p-6 rounded-xl">
+          <div className="flex justify-between border-b py-2">
+            <span>Morning Batch</span>
+            <span>6:00 AM - 10:00 AM</span>
+          </div>
+          <div className="flex justify-between border-b py-2">
+            <span>Evening Batch</span>
+            <span>5:00 PM - 10:00 PM</span>
+          </div>
+          <div className="flex justify-between py-2">
+            <span>Personal Training</span>
+            <span>Flexible</span>
+          </div>
+        </div>
+      </section>
+
+      {/* TESTIMONIALS */}
+      <section className="p-10 bg-gray-900">
+        <h2 className="text-3xl font-bold text-center mb-10">
+          What Our Members Say
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-6">
+          <div className="bg-black p-5 rounded-xl">
+            <p className="text-gray-400">
+              "Amazing trainers and great environment!"
+            </p>
+            <h4 className="mt-3 font-bold text-yellow-400">Rahul</h4>
+          </div>
+
+          <div className="bg-black p-5 rounded-xl">
+            <p className="text-gray-400">
+              "I lost 8kg in 2 months 🔥"
+            </p>
+            <h4 className="mt-3 font-bold text-yellow-400">Aman</h4>
+          </div>
+
+          <div className="bg-black p-5 rounded-xl">
+            <p className="text-gray-400">
+              "Best gym experience ever!"
+            </p>
+            <h4 className="mt-3 font-bold text-yellow-400">Sneha</h4>
+          </div>
         </div>
       </section>
 
       {/* CTA */}
       <section className="text-center p-10 bg-yellow-400 text-black">
-        <h2 className="text-3xl font-bold">Start Your Fitness Journey Today</h2>
+        <h2 className="text-3xl font-bold">
+          Start Your Fitness Journey Today
+        </h2>
         <button className="mt-4 bg-black text-white px-6 py-3 rounded font-bold hover:bg-gray-800">
           Get Membership
         </button>
